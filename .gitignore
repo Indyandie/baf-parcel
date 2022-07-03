@@ -10,3 +10,7 @@
 .yarn/cache
 .pnp.*
 yarn.lock
+
+# parcel
+dist
+.parcel-cache/
