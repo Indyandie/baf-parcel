@@ -1,0 +1,7 @@
+{
+  "name": "baf-parcel",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
