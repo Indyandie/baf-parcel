@@ -10,6 +10,11 @@ header {
   background-color: black;
 }
 
-h1 {
+header h1 {
+  margin: 0 0 24px;
+  padding: 16px 24px;
 }
 
+section {
+  padding: 8px 24px;
+}
