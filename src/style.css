@@ -1,18 +1,28 @@
-body {
-  margin: 0;
-  background-color: #333;
-  color: white;
-  font-size: 20px;
+@import "./md.css";
+
+body>header {
+  margin: 0 !important;
+  margin-bottom: 32px !important;
+  padding: 8px;
+  width: 100% !important;
+  max-width: unset !important;
+  background-color: var(--normal-black);
+  display: flex;
+  justify-content: center;
 }
 
-header {
+body>header>h1 {
   margin: 0;
-  background-color: black;
+  font-size: 24px;
 }
 
-header h1 {
-  margin: 0 0 24px;
-  padding: 16px 24px;
+body>header>h1 strong {
+  color: aqua;
+  background: linear-gradient(91.99deg, #63FAD5 -0.01%, #E37BD9 48.41%, #FFC656 96.82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 section {
